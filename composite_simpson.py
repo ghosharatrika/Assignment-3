@@ -74,7 +74,7 @@ def f(x):
 
 a = 1  # Lower Limit of integration
 b = 2  # Upper Limit of integration
-n = 6  # No. of evaluation
+n = 4  # No. of evaluation
 
 
 def simpsons_rule(f, a, b, n):
