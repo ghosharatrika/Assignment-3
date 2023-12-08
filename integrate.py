@@ -21,9 +21,10 @@ y_val = f(x_val)
 
 trap = integrate.trapezoid(y_val, x_val)  # Using trapezoidal rule
 simp = integrate.simpson(y_val, x_val)  # Using Simpson's rule
-romb = integrate.romberg(f, a, b)  # Using Romberg method
+
 
 # Print the results
 print("Trapezoidal rule:", trap)
 print("Simpson's rule:", simp)
+romb = integrate.romberg(f, a, b, show = True)  # Using Romberg method
 print("Romberg method:", romb)
